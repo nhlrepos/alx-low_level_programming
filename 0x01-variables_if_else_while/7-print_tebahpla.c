@@ -9,13 +9,12 @@
  */
 int main(void)
 {
-        char alpha[26]="abcdefghijklmnopqrstuvwxyz";
-        int i;
-        for(i=25;i>0;i--)
-        {
-                putchar(alpha[i]);
-        }
+	char ch;
 
-        putchar('\n');
-        return (0);
+	for (ch = 'z'; ch >= 'a'; ch--)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
