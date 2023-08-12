@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n, m;
-        int c =49;
+	int c = 49;
 
 	for (n = 48; n < 58; n++)
 	{
@@ -26,7 +26,7 @@ int main(void)
 				}
 			}
 		}
-                c++;
+		c++;
 	}
 	putchar('\n');
 	return (0);
