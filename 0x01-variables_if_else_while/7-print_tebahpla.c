@@ -1,18 +1,21 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - prints the lowercase alphabet in reverse,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char alpha[26]="abcdefghijklmnopqrstuvwxyz"
-	int i;
-	for(i=26;i>0;i--)
-	{
-		printf("%d",i);
-	}
+        char alpha[26]="abcdefghijklmnopqrstuvwxyz";
+        int i;
+        for(i=25;i>0;i--)
+        {
+                putchar(alpha[i]);
+        }
 
-	putchar('\n');
-	return (0);
+        putchar('\n');
+        return (0);
 }

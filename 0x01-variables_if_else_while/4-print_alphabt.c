@@ -1,14 +1,18 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-/* more headers goes there */
+/**
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
+ */
 
-/* betty style doc for function main goes there */
+
 int main(void)
 {
 	char alpha[26]="abcdefghijklmnopqrstuvwxyz";
 
-	for(i=0;i<26;i++)
+	for(int i=0;i<26;i++)
 	{
 		if(alpha[i]!='e' && alpha[i]!='q')
 		{
