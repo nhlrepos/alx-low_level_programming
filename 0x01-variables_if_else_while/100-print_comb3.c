@@ -9,24 +9,24 @@
 int main(void)
 {
         int i, j;
-        int c=48;
+        int c = 48;
 
-        for(i=48;i<58;i++)
+        for (i = 48; i < 58; i++)
         {
-            for(j=c;j<58;j++)
+            for (j = c; j < 58; j++)
             {   
-                if (i!=j)
+                if (i != j)
                 {
                     putchar(i);
                     putchar(j);
-                    if (i!=56 || j!=57)
+                    if (i != 56 || j != 57)
                     {
                         putchar(',');
                         putchar(' '); 
                     }
                 }
             }
-            c++;
+                c++;
         }
 
         putchar('\n');
