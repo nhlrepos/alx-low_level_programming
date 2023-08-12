@@ -10,25 +10,25 @@ int main(void)
 {
         int i, j;
         int c = 48;
-
+        
         for (i = 48; i < 58; i++)
         {
-            for (j = c; j < 58; j++)
-            {   
-                if (i != j)
+                for (j = c; j < 58; j++)
                 {
-                    putchar(i);
-                    putchar(j);
-                    if (i != 56 || j != 57)
-                    {
-                        putchar(',');
-                        putchar(' '); 
-                    }
+                        if (i != j)
+                        {
+                                putchar(i);
+                                putchar(j);
+                                if (i != 56 || j != 57)
+                                {
+                                        putchar(',');
+                                        putchar(' ');
+                                }
+                        }
                 }
-            }
                 c++;
         }
-
+        
         putchar('\n');
         return (0);
 }
